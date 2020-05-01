@@ -1,0 +1,22 @@
+[package]
+name = "foreground_scheduler"
+version = "2020.404.1243"
+authors = ["Luciano Bestia <luciano.bestia@gmail.com>"]
+edition = "2018"
+description = "runs a command at interval in foreground"
+repository = "https://github.com/LucianoBestia/foreground_scheduler"
+readme = "README.md"
+license = "MIT"
+keywords = ["CLI"]
+categories = ["development-tools::build-utils"]
+publish = false
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+unwrap = "1.2.1"
+clap = "2.33.0"
+ansi_term = "0.12.1"
+chrono="0.4.11"
+
+[badges]
+maintenance = { status = "passively-maintained" }					
