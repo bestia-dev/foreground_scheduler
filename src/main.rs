@@ -76,7 +76,8 @@ use unwrap::unwrap;
 /// the main just calls try_main and shows errors if there are any
 #[tokio::main]
 async fn main() -> Result<()> {
-    println!("foreground_scheduler start");
+    println!("start foreground_scheduler minute command \"args\"");
+    println!("example: $ foreground_scheduler 4 cargo \"repo fetch trusted\"");
     // this function is different for Windows and for Linux.
     // Look at the code of this function (2 variations).
     enable_ansi_support();
@@ -112,7 +113,6 @@ async fn main() -> Result<()> {
             println!("2nd arg command: {}", command);
             if let Some(args) = arguments.value_of("args") {
                 println!("3rd arg args: {}", args);
-                let args = args.split(' ').collect();
                 loop {
                     if is_scheduled_run(minute) {
                         println!("Executed every hour on {} minute.", minute);
@@ -133,9 +133,10 @@ async fn main() -> Result<()> {
 }
 
 /// the errors are mostly propagated to the try_main
-async fn try_main(command: &str, args: &Vec<&str>) -> Result<()> {
+async fn try_main(command: &str, args: &str) -> Result<()> {
     use std::process::Command;
-    println!(" $ {} {:?}", command, args);
+    println!(" $ {} {}", command, args);
+    let args: Vec<&str> = args.split(' ').collect();
     Command::new(command)
         .args(args)
         .spawn()
