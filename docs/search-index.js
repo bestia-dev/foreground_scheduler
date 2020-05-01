@@ -1,0 +1,3 @@
+var searchIndex={};
+searchIndex["foreground_scheduler"] = {"doc":"foreground_scheduler","i":[[5,"main","foreground_scheduler","the main just calls try_main and shows errors if there are…",null,[[],["result"]]],[5,"try_main","","the errors are mostly propagated to the try_main",null,[[["str"]]]],[5,"enable_ansi_support","","",null,[[]]],[5,"is_scheduled_run","","if the time is scheduled, then return true resolution is 1…",null,[[["usize"]],["bool"]]],[5,"millis_until_next_minute","","millis until next minute",null,[[],["u64"]]]],"p":[]};
+addSearchOptions(searchIndex);initSearch(searchIndex);
