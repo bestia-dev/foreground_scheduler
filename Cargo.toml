@@ -1,6 +1,6 @@
 [package]
 name = "foreground_scheduler"
-version = "2020.501.1535"
+version = "2020.501.1600"
 authors = ["Luciano Bestia <luciano.bestia@gmail.com>"]
 edition = "2018"
 description = "runs a command at interval in foreground"

@@ -112,10 +112,11 @@ async fn main() -> Result<()> {
             println!("2nd arg command: {}", command);
             if let Some(args) = arguments.value_of("args") {
                 println!("3rd arg args: {}", args);
+                let args = args.split(' ').collect();
                 loop {
                     if is_scheduled_run(minute) {
                         println!("Executed every hour on {} minute.", minute);
-                        try_main(command, args).await.unwrap();
+                        try_main(command, &args).await.unwrap();
                     }
                     // I need the tick resolution once per minute
                     std::thread::sleep(
@@ -132,16 +133,13 @@ async fn main() -> Result<()> {
 }
 
 /// the errors are mostly propagated to the try_main
-async fn try_main(command: &str, args: &str) -> Result<()> {
+async fn try_main(command: &str, args: &Vec<&str>) -> Result<()> {
     use std::process::Command;
-    println!(" $ {} {}", command, args);
-    let output = Command::new(command)
-        .arg(args)
-        .output()
-        .expect("failed to execute process");
-    use std::str;
-    let text = unwrap!(str::from_utf8(&output.stdout));
-    println!("{}", text);
+    println!(" $ {} {:?}", command, args);
+    Command::new(command)
+        .args(args)
+        .spawn()
+        .expect("command failed to start");
 
     Ok(())
 }
