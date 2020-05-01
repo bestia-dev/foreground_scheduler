@@ -40,35 +40,11 @@ skip_core_tasks = true
     ]
 
     [tasks.run_rel2]
-    description = "target/release/${CARGO_MAKE_CRATE_NAME} --help"
+    description = "target/release/${CARGO_MAKE_CRATE_NAME} 19 cargo \"crev repo fetch trusted\""
     clear = true
     script = [
-        "echo target/release/${CARGO_MAKE_CRATE_NAME} --help",
-        "target/release/${CARGO_MAKE_CRATE_NAME} --help",
-    ]
-
-    [tasks.run_rel3]
-    description = "target/release/${CARGO_MAKE_CRATE_NAME} --increment=patch"
-    clear = true
-    script = [
-        "echo target/release/${CARGO_MAKE_CRATE_NAME} --increment=minor",
-        "target/release/${CARGO_MAKE_CRATE_NAME} --increment=patch",
-    ]
-
-    [tasks.run_rel4]
-    description = "target/release/${CARGO_MAKE_CRATE_NAME} --increment=minor"
-    clear = true
-    script = [
-        "echo target/release/${CARGO_MAKE_CRATE_NAME} --increment=minor",
-        "target/release/${CARGO_MAKE_CRATE_NAME} --increment=minor",
-    ]
-
-    [tasks.run_rel5]
-    description = "target/release/${CARGO_MAKE_CRATE_NAME} --increment=blahblah"
-    clear = true
-    script = [
-        "echo target/release/${CARGO_MAKE_CRATE_NAME} --increment=blahblah",
-        "target/release/${CARGO_MAKE_CRATE_NAME} --increment=blahblah",
+        "echo target/release/${CARGO_MAKE_CRATE_NAME}  19 cargo \"crev repo fetch trusted\"",
+        "target/release/${CARGO_MAKE_CRATE_NAME}  19 cargo \"crev repo fetch trusted\"",
     ]
 
     [tasks.doc]

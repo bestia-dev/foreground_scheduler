@@ -67,7 +67,7 @@ use clap::*;
 
 #[allow(unused_imports)]
 use ansi_term::Colour::{Green, Red, Yellow};
-use chrono::{Datelike, Timelike, Utc};
+use chrono::{Timelike, Utc};
 use std::env;
 use std::io::{self, Write};
 use unwrap::unwrap;
@@ -165,7 +165,7 @@ pub fn enable_ansi_support() {
 pub fn is_scheduled_run(minute: usize) -> bool {
     let now = Utc::now();
     let now_minute = now.minute();
-    if now_minute == minute {
+    if now_minute == minute as u32 {
         return true;
     } else {
         print!("{}...", now_minute);
