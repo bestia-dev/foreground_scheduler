@@ -131,7 +131,7 @@ script= [
 [tasks.build_dev]
 clear = true
 private = true
-description = "build wasm in dev mode"
+description = "build in dev/debug mode"
 command = "cargo"
 args = ["build"]
 
