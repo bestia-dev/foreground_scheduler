@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["enable_ansi_support",""],["is_scheduled_run","if the time is scheduled, then return true resolution is 1 minute."],["main","the main just calls try_main and shows errors if there are any"],["millis_until_next_minute","millis until next minute"],["try_main","the errors are mostly propagated to the try_main"]]});
+initSidebarItems({"fn":[["enable_ansi_support",""],["main","starting CLI"]],"mod":[["scheduler_mod","scheduler_mod"]]});

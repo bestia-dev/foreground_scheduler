@@ -1,7 +1,7 @@
 # foreground_scheduler  
 
 [comment]: # (lmake_readme cargo.toml data start)
-version: 2020.501.1621  date: 2020-05-01 authors: Luciano Bestia  
+version: 2020.507.1304  date: 2020-05-07 authors: Luciano Bestia  
 **runs a command at interval in foreground**
 
 [comment]: # (lmake_readme cargo.toml data end)
