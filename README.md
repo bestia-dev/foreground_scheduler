@@ -1,8 +1,9 @@
 # foreground_scheduler  
 
 [comment]: # (lmake_readme cargo.toml data start)
-version: 2020.507.1304  date: 2020-05-07 authors: Luciano Bestia  
-**runs a command at interval in foreground**
+
+**runs a command at interval in foreground**  
+***version: 2020.507.1304  date: 2020-05-07 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/foreground_scheduler)***  
 
 [comment]: # (lmake_readme cargo.toml data end)
 
