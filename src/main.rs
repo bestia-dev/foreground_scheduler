@@ -1,7 +1,7 @@
 // region: lmake_readme include "readme.md" //! A
 //! # foreground_scheduler  
 //!
-//! version: 2020.507.1304  date: 2020-05-07 authors: Luciano Bestia  
+//! version: 2020.507.1304  date: 2020-05-07 authors: bestia.dev  
 //! **runs a command at interval in foreground**
 //!
 //!
@@ -25,7 +25,7 @@
 //! ## Development
 //!
 //! Documentation:  
-//! <https://lucianobestia.github.io/foreground_scheduler>  
+//! <https://bestia-dev.github.io/foreground_scheduler>  
 //! List of prepared make tasks for development: build, run, doc, publish,...  
 //! `clear; cargo make release`  
 //! `clear; cargo make run_rel1`  

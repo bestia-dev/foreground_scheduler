@@ -3,7 +3,7 @@
 [comment]: # (lmake_readme cargo.toml data start)
 
 **runs a command at interval in foreground**  
-***version: 2020.507.1304  date: 2020-05-07 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/foreground_scheduler)***  
+***version: 2020.507.1304  date: 2020-05-07 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/foreground_scheduler)***  
 
 [comment]: # (lmake_readme cargo.toml data end)
 
@@ -27,7 +27,7 @@ This will run every hour at xx:04 minutes.
 ## Development
 
 Documentation:  
-<https://lucianobestia.github.io/foreground_scheduler>  
+<https://bestia-dev.github.io/foreground_scheduler>  
 List of prepared make tasks for development: build, run, doc, publish,...  
 `clear; cargo make release`  
 `clear; cargo make run_rel1`  
