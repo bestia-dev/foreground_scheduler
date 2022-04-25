@@ -1,7 +1,7 @@
 [package]
 name = "foreground_scheduler"
 version = "2020.507.1304"
-authors = ["bestia.dev <info@bestia.dev>"]
+authors = ["bestia.dev"]
 edition = "2018"
 description = "runs a command at interval in foreground"
 repository = "https://github.com/bestia-dev/foreground_scheduler"
