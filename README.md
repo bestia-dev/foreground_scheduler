@@ -9,6 +9,8 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Fforeground_scheduler&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
+Hashtags: #rustlang #utility #cli
+
 ## screen instead of background
 
 In Linux I love to use the screen command. In a screen session I can run a program
