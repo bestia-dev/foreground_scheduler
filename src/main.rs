@@ -136,13 +136,14 @@ use unwrap::unwrap;
 fn main() -> Result<()> {
     // enable_ansi_support is different for Windows and for Linux.
     enable_ansi_support();
-    println!("Start foreground_scheduler{}", "");
+    println!("Welcome to foreground_scheduler !");
     println!("utc  : {}", &Utc::now().format("%Y-%m-%d %H:%M:%S"));
     println!("local: {}", &Local::now().format("%Y-%m-%d %H:%M:%S"));
     println!(
         "{}",
         Yellow.paint("example: $ foreground_scheduler 4 cargo \"repo fetch trusted\"")
     );
+    println!("© bestia.dev 2022, MIT License");        
 
     // define the CLI input line parameters using the clap library
     let arguments = App::new(env!("CARGO_PKG_NAME"))
