@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "foreground_scheduler"
-version = "2022.622.1233"
+version = "2022.622.1243"
 dependencies = [
  "ansi_term 0.12.1",
  "chrono",
