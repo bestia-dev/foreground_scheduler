@@ -3,7 +3,7 @@ name = "foreground_scheduler"
 version = "2022.622.1243"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"
-edition = "2018"
+edition = "2021"
 description = "runs a command at interval in foreground"
 repository = "https://github.com/bestia-dev/foreground_scheduler"
 readme = "README.md"
@@ -17,6 +17,4 @@ unwrap = "1.2.1"
 clap = "2.33.0"
 ansi_term = "0.12.1"
 chrono="0.4.11"
-
-[badges]
-maintenance = { status = "passively-maintained" }					
+					

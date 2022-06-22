@@ -204,9 +204,7 @@ fn task_commit_and_push(arg_2: Option<String>) {
             run_shell_command("git push");
             println!(
                 r#"{YELLOW}
-    After `cargo auto commit_and_push "message"`
-cargo auto publish_to_crates_io
-{RESET}"#
+    After `cargo auto commit_and_push "message"` copy the release binary to where you need it.
             );
         }
     }
