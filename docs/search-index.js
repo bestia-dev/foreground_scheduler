@@ -1,3 +1,4 @@
-var searchIndex={};
-searchIndex["foreground_scheduler"] = {"doc":"foreground_scheduler","i":[[5,"main","foreground_scheduler","starting CLI",null,[[],["result"]]],[5,"enable_ansi_support","","",null,[[]]],[0,"scheduler_mod","","scheduler_mod",null,null],[5,"loop_scheduler","foreground_scheduler::scheduler_mod","loop and sleep scheduler",null,[[["str"],["usize"]]]],[5,"run_command","","run command",null,[[["str"]]]],[5,"is_scheduled_run","","if the time is exactly as scheduled, then return true…",null,[[["usize"]],["bool"]]],[5,"millis_until_next_minute","","millis until next minute. I use this to sleep.",null,[[],["u64"]]]],"p":[]};
-addSearchOptions(searchIndex);initSearch(searchIndex);
+var searchIndex = JSON.parse('{\
+"foreground_scheduler":{"doc":"foreground_scheduler","t":[5,5,0,5,5,5,5],"n":["enable_ansi_support","main","scheduler_mod","is_scheduled_run","loop_scheduler","millis_until_next_minute","run_command"],"q":["foreground_scheduler","","","foreground_scheduler::scheduler_mod","","",""],"d":["","starting CLI","scheduler_mod","if the time is exactly as scheduled, then return true …","loop and sleep scheduler","millis until next minute. I use this to sleep.","run command"],"i":[0,0,0,0,0,0,0],"f":[[[]],[[],["result",6]],null,[[["usize",0]],["bool",0]],[[["usize",0],["str",0],["str",0]]],[[],["u64",0]],[[["str",0],["str",0]]]],"p":[]}\
+}');
+if (window.initSearch) {window.initSearch(searchIndex)};

@@ -1,6 +1,6 @@
 [package]
 name = "foreground_scheduler"
-version = "2020.507.1304"
+version = "2022.622.1233"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"
 edition = "2018"
