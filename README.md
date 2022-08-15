@@ -19,7 +19,7 @@
 [comment]: # (auto_lines_of_code end)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/blob/master/LICENSE)
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/630941367)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/630941367.svg)
 
 Hashtags: #rustlang #utility #cli  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
