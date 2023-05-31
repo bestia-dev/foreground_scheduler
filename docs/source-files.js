@@ -1,3 +1,4 @@
-var N = null;var sourcesIndex = {};
-sourcesIndex["foreground_scheduler"] = {"name":"","files":["main.rs","scheduler_mod.rs"]};
+var sourcesIndex = JSON.parse('{\
+"foreground_scheduler":["",[],["main.rs","scheduler_mod.rs"]]\
+}');
 createSourceSidebar();

@@ -2,10 +2,10 @@
 //! # foreground_scheduler  
 //!
 //! **runs a command at interval in foreground**  
-//! ***version: 2022.622.1243 date: 2022-06-22 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/foreground_scheduler)***  
+//! ***version: 2023.531.1201 date: 2023-05-31 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/foreground_scheduler)***  
 //!
-//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-140-green.svg)](https://github.com/bestia-dev/foreground_scheduler/)
-//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-38-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/)
+//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-141-green.svg)](https://github.com/bestia-dev/foreground_scheduler/)
+//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-69-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 //! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-46-purple.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 //! [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 //! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/foreground_scheduler/)
@@ -49,16 +49,19 @@
 //! You can also read reviews quickly on the web:  
 //! <https://web.crev.dev/rust-reviews/crates/>  
 //!
-//! ## open-source free and free as a beer
+//! ## Open-source and free as a beer
 //!
 //! My open-source projects are free as a beer (MIT license).  
 //! I just love programming.  
-//! But I need also to drink. If you find my projects and tutorials helpful,  
-//! please buy me a beer donating on my [paypal](https://paypal.me/LucianoBestia).  
+//! But I need also to drink. If you find my projects and tutorials helpful, please buy me a beer by donating to my [PayPal](https://paypal.me/LucianoBestia).  
 //! You know the price of a beer in your local bar ;-)  
 //! So I can drink a free beer for your health :-)  
 //! [Na zdravje!](https://translate.google.com/?hl=en&sl=sl&tl=en&text=Na%20zdravje&op=translate) [Alla salute!](https://dictionary.cambridge.org/dictionary/italian-english/alla-salute) [Prost!](https://dictionary.cambridge.org/dictionary/german-english/prost) [Nazdravlje!](https://matadornetwork.com/nights/how-to-say-cheers-in-50-languages/) 🍻
 //!
+//! [//bestia.dev](https://bestia.dev)  
+//! [//github.com/bestia-dev](https://github.com/bestia-dev)  
+//! [//bestiadev.substack.com](https://bestiadev.substack.com)  
+//! [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
 //!
 // endregion: auto_md_to_doc_comments include README.md A //!
 
@@ -143,7 +146,7 @@ fn main() -> Result<()> {
         "{}",
         Yellow.paint("example: $ foreground_scheduler 4 cargo \"repo fetch trusted\"")
     );
-    println!("© bestia.dev 2022, MIT License");        
+    println!("© bestia.dev 2022, MIT License");
 
     // define the CLI input line parameters using the clap library
     let arguments = App::new(env!("CARGO_PKG_NAME"))

@@ -1,22 +1,22 @@
-[comment]: # (auto_md_to_doc_comments segment start A)
+[//]: # (auto_md_to_doc_comments segment start A)
 
 # foreground_scheduler  
 
-[comment]: # (auto_cargo_toml_to_md start)
+[//]: # (auto_cargo_toml_to_md start)
 
 **runs a command at interval in foreground**  
-***version: 2022.622.1243 date: 2022-06-22 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/foreground_scheduler)***  
+***version: 2023.531.1201 date: 2023-05-31 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/foreground_scheduler)***  
 
-[comment]: # (auto_cargo_toml_to_md end)
+[//]: # (auto_cargo_toml_to_md end)
 
-[comment]: # (auto_lines_of_code start)
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-140-green.svg)](https://github.com/bestia-dev/foreground_scheduler/)
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-38-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/)
+[//]: # (auto_lines_of_code start)
+[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-141-green.svg)](https://github.com/bestia-dev/foreground_scheduler/)
+[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-69-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-46-purple.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/foreground_scheduler/)
 
-[comment]: # (auto_lines_of_code end)
+[//]: # (auto_lines_of_code end)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/foreground_scheduler/blob/master/LICENSE)
 ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/630941367.svg)
@@ -71,4 +71,4 @@ So I can drink a free beer for your health :-)
 [//bestiadev.substack.com](https://bestiadev.substack.com)  
 [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
 
-[comment]: # (auto_md_to_doc_comments segment end A)
+[//]: # (auto_md_to_doc_comments segment end A)

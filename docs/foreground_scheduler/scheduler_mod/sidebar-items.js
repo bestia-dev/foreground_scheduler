@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["is_scheduled_run","if the time is exactly as scheduled, then return true resolution is 1 minute."],["loop_scheduler","loop and sleep scheduler"],["millis_until_next_minute","millis until next minute. I use this to sleep."],["run_command","run command"]]});
+window.SIDEBAR_ITEMS = {"fn":["is_scheduled_run","loop_scheduler","millis_until_next_minute","run_command"]};

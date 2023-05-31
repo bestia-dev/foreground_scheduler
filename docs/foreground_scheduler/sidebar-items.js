@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["enable_ansi_support",""],["main","starting CLI"]],"mod":[["scheduler_mod","scheduler_mod"]]});
+window.SIDEBAR_ITEMS = {"fn":["enable_ansi_support","main"],"mod":["scheduler_mod"]};
