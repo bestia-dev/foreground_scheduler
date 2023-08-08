@@ -7,10 +7,10 @@
 **runs a command at interval in foreground**  
 ***version: 2023.531.1201 date: 2023-05-31 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/foreground_scheduler)***  
 
-![status](https://img.shields.io/badge/active_dev-green) 
-![status](https://img.shields.io/badge/in_use-green) 
-
 [//]: # (auto_cargo_toml_to_md end)
+
+![status](https://img.shields.io/badge/maintained-green) 
+![status](https://img.shields.io/badge/ready_for_use-green) 
 
 [//]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-141-green.svg)](https://github.com/bestia-dev/foreground_scheduler/)
