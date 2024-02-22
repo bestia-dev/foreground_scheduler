@@ -49,15 +49,6 @@ Documentation:
 List of prepared automation tasks for development: build, run, doc, publish,...  
 `cargo auto`  
 
-## cargo crev reviews and advisory
-
-We live in times of danger with [supply chain attacks](https://en.wikipedia.org/wiki/Supply_chain_attack).  
-It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
-to verify the trustworthiness of each of your dependencies.  
-Please, spread this info.  
-You can also read reviews quickly on the web:  
-<https://web.crev.dev/rust-reviews/crates/>  
-
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
