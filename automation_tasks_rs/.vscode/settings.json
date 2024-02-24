@@ -16,8 +16,9 @@
     "rust-analyzer.showUnlinkedFileNotification": false,
     "cSpell.words": [
         "bestia",
-        "deps",
+        "chrono",
         "endregion",
-        "plantuml"
+        "plantuml",
+        "zcvf"
     ]
 }
