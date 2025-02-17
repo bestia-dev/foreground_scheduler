@@ -3,6 +3,8 @@
 
 # automation_tasks_rs
 
+ ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 In this sub-project `automation_tasks_rs` you can write tasks that you need when compiling or managing your Rust project.  
 The simple `cargo build` and `cargo build --release` are sometimes not enough. We need to copy some files, to prepare some environment. It is nice to have `all` the tasks in one place with a sort order that new users can easily follow.  
 It is a Rust project, so you don't have to learn another strange language for automation.  
